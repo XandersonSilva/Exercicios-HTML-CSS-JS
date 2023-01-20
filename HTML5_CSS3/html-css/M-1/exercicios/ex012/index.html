@@ -15,5 +15,15 @@
         <img src="imagens/imagem_grande.png" alt="Imagem flexivel">
 
     </picture>
+    <h1>Reproduzir áudio</h1>
+    <p>Hora de ver audios em html</p>
+    <audio src="midias/happy-mistake.mp3" controls autoplay ></audio>
+    <!-- Compativel com MP3 WAV OGG-->
+    <audio preload="metadata" controls loop >
+        <source src="midias/guanacast-33.mp3" type="audio/mp3">
+        <source src="midias/guanacast-33.ogg" type="audio/ogg">
+        <source src="midias/guanacast-33.wav" type="audio/wav">
+        <p>Seu navegador não consegue reproduzir áudios <a href="midias/guanacast-33.mp3">Click aqui para baixar</a></p>
+    </audio>
 </body>
 </html>
