@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(211, 179, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5%;
+    width: 85%;
+}
+h1{
+    color: green;
+}
+h1#principal{
+    text-align: center;
+    background-color: rgba(255, 243, 72, 0.548);
+    border-radius: 25%;
+}
+h2{
+    color: rgb(255, 145, 0);
+}
+p{
+    text-align: justify;
+    text-indent: 2em;
+}
