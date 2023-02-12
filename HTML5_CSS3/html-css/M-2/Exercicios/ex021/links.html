@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            background-color: yellow;
+        }
+        .especial::after{
+            content: '♯';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 14, 95);
+        }
+        .especial::before{
+            content: '♯';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 14, 95);
+        }
+        div {
+            padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: navajowhite;
+            width: 12em;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https:github.com/xandersonsilva" target="_blank" class="especial" >Meu repositorio Github.</a>
+        <li><a href="https://www.youtube.com/playlist?
+            list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Curso de HTML e CSS do curso em video</a>
+        <li><a href="https://www.w3c.pb" target="_blank">Normas w3c Brasil</a>
+    </ul>
+    <div>
+        passe o mause aqui
+        <p>SURPRESAAA!!</p>
+    </div>
+    <p>Veja o conteudo oculto</p>
+    
+</body>
+</html>
