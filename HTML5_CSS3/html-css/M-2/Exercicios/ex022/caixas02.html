@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tag</title>
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(184, 209, 209);
+            margin: 0;
+        }
+        nav{
+            padding: 5px;
+            background-color: rgb(0, 0, 0);
+        }
+        header{
+            background-color: seagreen;
+            padding: 10px;
+            margin: auto 20px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline ;
+            color: darkgray;
+        }
+        nav > a {
+            margin-right: 10px ;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding: 2px;
+        }
+        article{
+            padding: 3px 12px;
+            text-align: justify;
+            background-color: lightgray;
+
+        }
+
+        article > p{
+            text-indent: 3em ;
+        }
+        #assuntos{
+            padding-top: 1px;
+            text-align: center;
+            font-size: 21px
+        }
+        main{
+            margin: 15px;
+            background-color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        aside{
+            background-color: rgb(184, 209, 209);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudo de Gruping tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <ul>
+                    <li> <h2> Noticia sobre o Brasil</h2>
+                </ul>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda culpa libero sunt est dicta illo quos, laudantium vel odit, autem at unde, rem magnam omnis sit. Eveniet, qui? Alias, eaque.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro, maxime praesentium, molestiae reiciendis impedit voluptate obcaecati labore quibusdam illo iure, temporibus ullam nisi fuga aut atque mollitia! Consequuntur, molestias.
+                <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A debitis distinctio, sit blanditiis in, magnam rerum neque illum, reiciendis minus commodi quaerat quasi impedit. Amet commodi ipsa officiis quis blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut soluta similique, enim cupiditate minus ducimus commodi, blanditiis, eligendi error consequatur quos molestias nam repellat reprehenderit modi ad cum mollitia vero!
+                </p><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, natus iure laboriosam recusandae quidem nulla labore, dolor inventore nostrum officiis, soluta quasi ullam in consectetur enim architecto doloribus accusamus. Ea!
+                </p>
+                <aside>
+                    <p> Escrito por: None</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/XandersonSilva">XandersonSilva-Github</a>
+    </footer>
+</body>
+</html>
