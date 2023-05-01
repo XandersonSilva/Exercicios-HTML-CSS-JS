@@ -1,2 +1,2 @@
-# Meus exercicios
- Meus Exercícios(cursos ou apenas pratica para aperfeiçoamento próprio) 
+# Exercicios HTML, CSS e JS
+ 
